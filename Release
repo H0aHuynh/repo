@@ -1,0 +1,14 @@
+Origin: NaVi APT
+Label: Navi APT
+Suite: stable
+Version: 1.0.2
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: APT repo jailbreak systemMD5Sum:
+  803a00a90dbb067af613a68602c95cfb 1352 Packages
+  ce4d11d15f6c78737662957d5f731fa2 775 Packages.bz2
+SHA256:
+  a188186c36155392d2088247e1238a5bd17e557f594857674ca8cb79996ec673 1352 Packages
+  60d0e3960e94bf502e4d0cd232de2620db09df38572c73bcd113d3a4499a81fc 775 Packages.bz2
+

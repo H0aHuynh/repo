@@ -1,0 +1,34 @@
+Package: navisafemode
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Hoà Huỳnh
+Depends: cy+cpu.arm64
+Filename: debs/navisafemode_1.2_iphoneos-arm.deb
+Size: 58468
+MD5sum: 3178e9803be5988ff7bd0c7e6d9841ee
+SHA1: 2a5c5ef70b0c018a7b6ccfed4cf67ed17ddd3bd1
+SHA256: 1621d1a3a21b850d5ca323516cd21a60fe63bfe2e196305b4962bdb776474457
+Section: System
+Description: Nai Mode
+Author: Hoà Huỳnh
+Name: Navi Safe Mode
+
+Package: navistuti
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Hoà Huỳnh
+Depends: cy+cpu.arm64, navisafemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: debs/navistuti_1.0_iphoneos-arm.deb
+Size: 313944
+MD5sum: d5dbb2e029cb45eeef165f88fe5783a4
+SHA1: 2c2f68af570415e49165cac3f721bd808a17b269
+SHA256: bc6205f3023dd9b454cb2bb8210ae13aaa034fd6084e7d97a0ce4c09c836608e
+Section: System
+Description: Chất nền dành riêng cho Navi untethered jailbreak
+Author: Hoà Huỳnh
+Icon: file:///Applications/NaviStuti.app/AppIcon76x76@2x~ipad.png
+Name: Navi Stuti
+
