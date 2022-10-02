@@ -5,7 +5,8 @@ Version: 1.0.2
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: APT repo jailbreak systemMD5Sum:
+Description: APT repo jailbreak system
+MD5Sum:
   c0b32e37d0cc2d518d2dca29983c32ba 432832 Packages
   913039afcbf6d43831f498ff5870fd0a 84803 Packages.bz2
 SHA256:
