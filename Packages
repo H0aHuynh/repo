@@ -11948,6 +11948,25 @@ Section: X_Window
 Priority: optional
 Description: X transport abstraction library
 
+Package: xyz.willy.zebra
+Version: 1.1.30
+Architecture: iphoneos-arm
+Maintainer: Zebra Team <team@getzbra.com>
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: debs/xyz.willy.zebra_1.1.30_iphoneos-arm.deb
+Size: 4959788
+MD5sum: f6cd2929286ddba8395f2a04ce94e9e5
+SHA1: 2348b3bfe887314702d034ba1a5e8e9b68eb2c2c
+SHA256: aa2cc948e0ed422eac3bf974a968a96f069ca49c9386a854fd2a8b02902a372c
+Section: Packaging
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.8
+Author: Zebra Team <team@getzbra.com>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Name: Zebra
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
 Package: xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
