@@ -3419,60 +3419,6 @@ Author: Sam Bingner <maintainer@sbdhi.com>
 Name: Jailbreak Resources
 
 Package: jailbreak-resources
-Version: 1.0~b25
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 692
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b25_iphoneos-arm.deb
-Size: 114016
-MD5sum: 2db17e25ff9e39d4618b4e724591bb3c
-SHA1: 46402ca800a0cb88a923f7cff3c48767ef4b1e3e
-SHA256: 598230139720afac053622d80244457cbf571542729f8b8827114e07ccfa4c22
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b26
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 692
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | science.xnu.substituted | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b26_iphoneos-arm.deb
-Size: 114044
-MD5sum: de02e45e5b4bb4dd68d316b37ed7627a
-SHA1: 3bd88b5b8a4d9402a4de5c1a3fd7a30423f2f2b9
-SHA256: 8b3a47a024dc82b4a32742950748ec3bb4fe3ac10c9e5096f598257370a5dc66
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b27
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 488
-Pre-Depends: dpkg (>= 1.18.25-9), launchctl
-Depends: firmware (>= 11.0), firmware (<< 12.0) | science.xnu.substituted | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1), launchctl, jbctl, debugserver
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b27_iphoneos-arm.deb
-Size: 149924
-MD5sum: 03c3601b3408321bdc4b9e3222ce0464
-SHA1: d82b079ccc4d0f68826cecaa8a75045e2f0af6b8
-SHA256: ab0a4bd9e7360578a869162522279e1ad3732db92bafa8e85727d98a3852727c
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
-Package: jailbreak-resources
 Version: 1.0~b5
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
@@ -3539,24 +3485,6 @@ Size: 43874
 MD5sum: 9ae322bd031b1acfac2b257e558fafe8
 SHA1: 73ae31f43f80daf5af0d32b59c90ae4407d689c2
 SHA256: 0e99e37e58ed6be26e665eadbebd8417d37fb444551523c7cd6fb17f44e7e662
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~rc1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 488
-Pre-Depends: dpkg (>= 1.18.25-9), launchctl
-Depends: firmware (>= 11.0), firmware (<< 12.0) | science.xnu.substituted | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1), launchctl, jbctl
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~rc1_iphoneos-arm.deb
-Size: 84480
-MD5sum: c23616d6bdf22a2a2fbe0bba1ae8b3ea
-SHA1: 81042e12df0df15413b1c0b3e18571ba65d1404d
-SHA256: 17ac0e2f92cf3349b3f4c89e229ada338a6df07d342f8c256af2de4fb1778726
 Section: System
 Description: Resources used by KPPLess Jailbreaks
 Author: Sam Bingner <maintainer@sbdhi.com>
@@ -3777,42 +3705,6 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Link Identity Editor
 
 Package: ldid
-Version: 2.0.0-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 464
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/ldid_2.0.0-1_iphoneos-arm.deb
-Size: 16772
-MD5sum: c579d8988fe64f42712dc8ec6b1da22e
-SHA1: 313cb7b52afa1714079cffd0db6d05e4118ab39a
-SHA256: 2d70bf19f448e05a97ec885a45cb0d18abe187af3e79381f86c9d26d95adcb18
-Section: Development
-Priority: optional
-Description: pseudo-codesign Mach-O files
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Link Identity Editor
-
-Package: ldid
-Version: 2.1.2+24497ae-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 464
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libplist (>= 2.0.0), libssl1.0, dpkg (>= 1.18.25-9)
-Filename: debs/ldid_2.1.2+24497ae-1_iphoneos-arm.deb
-Size: 51580
-MD5sum: 968a3c9f979e276c6e362e665eb63a4e
-SHA1: 17adf17e11cb5ec934375b03aa2633ec79a2888e
-SHA256: 07189d11c896a340b420983762115af6b2dab7512ddd278a190b24960efd60c5
-Section: Development
-Priority: optional
-Description: pseudo-codesign Mach-O files
-Tag: purpose::console, role::developer
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Link Identity Editor
-
-Package: ldid
 Version: 2:2.0.0-1
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
@@ -3935,114 +3827,6 @@ Size: 51588
 MD5sum: e79a41591db1a04da1636e0498916103
 SHA1: b0ab2c0d288846eaffbfc2aa55632beaa9461c05
 SHA256: 771af217739525cffac51d6feb613c79d2e48d6ec72d1351a52cb34dbc1a8e1b
-Section: Development
-Priority: optional
-Description: pseudo-codesign Mach-O files
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Link Identity Editor
-
-Package: ldid
-Version: 2:2.1.2+g5420cb5-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 464
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libplist (>= 2.0.0), libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: debs/ldid_2_2.1.2+g5420cb5-1_iphoneos-arm.deb
-Size: 51610
-MD5sum: 74302a4a9265923ba95f325dff9a702c
-SHA1: c8ac42dbcb07a81116428c1555a898fdddb6e7d6
-SHA256: 98ff2c568b6ee3522895a5b9ae2a627085029ab5428814f91a29aa02e0243824
-Section: Development
-Priority: optional
-Description: pseudo-codesign Mach-O files
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Link Identity Editor
-
-Package: ldid
-Version: 2:2.1.2+g5420cb5-2
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 464
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libplist (>= 2.0.0), libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: debs/ldid_2_2.1.2+g5420cb5-2_iphoneos-arm.deb
-Size: 52148
-MD5sum: b83b5c7b01ed46d68b2654d8c77fabea
-SHA1: a01962dfd5a957c3586ee12781dc53164c384a44
-SHA256: 1a3f40113f385aa6968349d29f7aaa63322823ea54151662b1bd43d69e4280ab
-Section: Development
-Priority: optional
-Description: pseudo-codesign Mach-O files
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Link Identity Editor
-
-Package: ldid
-Version: 2:2.1.2.7+g5420cb5q-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 464
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: debs/ldid_2_2.1.2.7+g5420cb5q-1_iphoneos-arm.deb
-Size: 52172
-MD5sum: ac3987b37e5e1ba1e2bc46c8fb9c2cf4
-SHA1: ff5185177f94f65f862d2afd3e9f848f525fc130
-SHA256: 5c8869076183ed0f2efb7e2cc526b4ec0695d01529915adbdb3badccc0f53057
-Section: Development
-Priority: optional
-Description: pseudo-codesign Mach-O files
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Link Identity Editor
-
-Package: ldid
-Version: 2:2.1.2.7+g5420cb5q-2
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 464
-Pre-Depends: dpkg (>= 1.14.25-8), libplist3
-Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: debs/ldid_2_2.1.2.7+g5420cb5q-2_iphoneos-arm.deb
-Size: 52170
-MD5sum: a4e1d157a01283ea153ddebb467c16ed
-SHA1: 0087da4ad8326f2fd79d6552e657d44d44979239
-SHA256: d3702e8b0fb6151b28716ea5aa0c2a4c52f67eba98ba375474140415629a6695
-Section: Development
-Priority: optional
-Description: pseudo-codesign Mach-O files
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Link Identity Editor
-
-Package: ldid
-Version: 2:2.1.4-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 456
-Pre-Depends: dpkg (>= 1.14.25-8), libplist3
-Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: debs/ldid_2_2.1.4-1_iphoneos-arm.deb
-Size: 55008
-MD5sum: c35ac8c8a6ef1f766afccd1eca00dd7c
-SHA1: c9499a3e515e3d04733d72374f55f83476df5762
-SHA256: 7d9a8ca5f1d02f6fd399cc1418ff582e0f600ed508565f5db0dc28c853981040
-Section: Development
-Priority: optional
-Description: pseudo-codesign Mach-O files
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Link Identity Editor
-
-Package: ldid
-Version: 2:2.1.5-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 488
-Pre-Depends: dpkg (>= 1.14.25-8), libplist3
-Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: debs/ldid_2_2.1.5-1_iphoneos-arm.deb
-Size: 60746
-MD5sum: 91cbee6f10add8ce3a8ca2f8c40f8f09
-SHA1: 24e15b2f900e715769b11adca9be63f7fdf25f7b
-SHA256: 75503e23fdd8bcecf70602cc7505c357b590d08222e5bafc0fe6925ca1a09cf1
 Section: Development
 Priority: optional
 Description: pseudo-codesign Mach-O files
@@ -6330,23 +6114,6 @@ Section: Networking
 Priority: standard
 Description: plist library
 
-Package: libplist
-Version: 2.2.1-3
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 8
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libplist-dev, libplist3, libplist++-dev, libplist++3, libplist-utils
-Conflicts: ldid (<<2:2.1.2.7+g5420cb5q)
-Filename: debs/libplist_2.2.1-3_iphoneos-arm.deb
-Size: 680
-MD5sum: 87d8f42faa9cd9985bbd2da89d1809b2
-SHA1: 4181e85dc314b5ea1f279cb167c8688bb248d030
-SHA256: 0f7374ab87900837600762f3556a70f05ca8800044f7989775d07c1bdf9b0a50
-Section: Networking
-Priority: standard
-Description: Library for handling Apple binary and XML property lists (metapackage)
-
 Package: libplist++-dev
 Version: 2.2.1-1
 Architecture: iphoneos-arm
@@ -8421,23 +8188,6 @@ Multi-Arch: foreign
 Description: the best ftp client known to man
 
 Package: ncurses
-Version: 6.1+20181013-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 7432
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: ncurses5-libs, coreutils, bash
-Filename: debs/ncurses_6.1+20181013-1_iphoneos-arm.deb
-Size: 365394
-MD5sum: d18cc4490dbfe33b8fd5211fbeacacc0
-SHA1: 2f57c086e2ee68af536ff3b88d4ac315a49d32c8
-SHA256: e55c55c9d61f3a3b0c1fd1a3df1add4083a6d3e891f87fb698c57d33d2365567
-Section: System
-Priority: required
-Description: feature-complete terminal library
-Name: New Curses
-
-Package: ncurses
 Version: 6.1-1
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
@@ -10140,141 +9890,6 @@ Description: Inject files to kernel trust cache
 Tag: role::hacker
 Author: Sam Bingner <maintainer@sbdhi.com>
 Name: Injector
-
-Package: science.xnu.undecimus.resources
-Version: 0.10
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 484
-Depends: firmware (>= 11.0), com.bingner.spawn, science.xnu.injector
-Filename: debs/science.xnu.undecimus.resources_0.10_iphoneos-arm.deb
-Size: 65122
-MD5sum: 4688acfda757e6846f84cf232770b608
-SHA1: f3ac1ec1dd71dfbeec1eee2082d1f12561e8809a
-SHA256: 5e8c2429cb44a6e7023bc880cf90f11551ac9b9143f5ca77132e0d8204091c88
-Section: System
-Description: Resources used by Unc0ver
-Name: Unc0ver Jailbreak Resources
-
-Package: science.xnu.undecimus.resources
-Version: 0.11
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 484
-Depends: firmware (>= 11.0), com.bingner.spawn, science.xnu.injector
-Filename: debs/science.xnu.undecimus.resources_0.11_iphoneos-arm.deb
-Size: 65188
-MD5sum: b137f9c790d7992a3e6e4344c7c5d033
-SHA1: fda621dacba353cf6f074234492b0c98985b751c
-SHA256: c6108290b2de4b6010c89f5b28a6b07c666f32545a07832e28ab4468b6f7b62e
-Section: System
-Description: Resources used by Unc0ver
-Name: Unc0ver Jailbreak Resources
-
-Package: science.xnu.undecimus.resources
-Version: 0.2
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Depends: firmware (>= 11.0), com.bingner.spawn
-Filename: debs/science.xnu.undecimus.resources_0.2_iphoneos-arm.deb
-Size: 61924
-MD5sum: 802c3d7cd880e05961ea2aaeab33680d
-SHA1: ce141adff2359070b3c400302bd9a5d1cc3788a3
-SHA256: de0a030ea5be6f6b3222727334e41cebfb51d3d841a47302914c50fb2566ded6
-Section: System
-Description: Resources used by Unc0ver
-Name: Unc0ver Jailbreak Resources
-
-Package: science.xnu.undecimus.resources
-Version: 0.4
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 480
-Pre-Depends: science.xnu.injector
-Depends: firmware (>= 11.0), com.bingner.spawn
-Filename: debs/science.xnu.undecimus.resources_0.4_iphoneos-arm.deb
-Size: 64492
-MD5sum: ba19b265be444e748ed1b553ce57ee04
-SHA1: 84b9f3b60cb5e6faf2ef482d45935c1c3bb65190
-SHA256: f982f12cec635247bfb4575e048c46eca97fc2f0dea64c7f44974e9792a29670
-Section: System
-Description: Resources used by Unc0ver
-Name: Unc0ver Jailbreak Resources
-
-Package: science.xnu.undecimus.resources
-Version: 0.5
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 480
-Depends: firmware (>= 11.0), com.bingner.spawn, science.xnu.injector
-Filename: debs/science.xnu.undecimus.resources_0.5_iphoneos-arm.deb
-Size: 64456
-MD5sum: 3f30f62ac803cb2bf95eaae1104b2b2b
-SHA1: 918b91467662ac145d6ba5a32abf9bd15fca5880
-SHA256: da103f379c68623b1d7415a580f8c16884b68436af3abb5fd3e78641cb471164
-Section: System
-Description: Resources used by Unc0ver
-Name: Unc0ver Jailbreak Resources
-
-Package: science.xnu.undecimus.resources
-Version: 0.6
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 480
-Depends: firmware (>= 11.0), com.bingner.spawn, science.xnu.injector
-Filename: debs/science.xnu.undecimus.resources_0.6_iphoneos-arm.deb
-Size: 64450
-MD5sum: 5070287f25bfbd4d0d2305925ffa62d9
-SHA1: 2d10e19b3fa3131c67dc2545ad50e2c95817c928
-SHA256: 0b1acfc5c359a1efed263849739571b8fc64ac9b8f2bd7603594ac8aa803f45d
-Section: System
-Description: Resources used by Unc0ver
-Name: Unc0ver Jailbreak Resources
-
-Package: science.xnu.undecimus.resources
-Version: 0.7
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 480
-Depends: firmware (>= 11.0), com.bingner.spawn, science.xnu.injector
-Filename: debs/science.xnu.undecimus.resources_0.7_iphoneos-arm.deb
-Size: 64414
-MD5sum: 12372c922f53527443046a26e7437eb8
-SHA1: ae1859316abeb39bbbf20a417482c8e5ec49e455
-SHA256: 68f628495e13c9959510dd53bde39a97820f85430f34216592244699106c850c
-Section: System
-Description: Resources used by Unc0ver
-Name: Unc0ver Jailbreak Resources
-
-Package: science.xnu.undecimus.resources
-Version: 0.8
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 560
-Depends: firmware (>= 11.0), com.bingner.spawn, science.xnu.injector
-Filename: debs/science.xnu.undecimus.resources_0.8_iphoneos-arm.deb
-Size: 73542
-MD5sum: 68a900dba59a863213785a4c463e6f5b
-SHA1: f71a81246c845cac4a1a0feb25aecd57778f288c
-SHA256: 9fd6e621aaef60862b4a3be06fd092b936d6f278d1650b3af1383c0d0968bac0
-Section: System
-Description: Resources used by Unc0ver
-Name: Unc0ver Jailbreak Resources
-
-Package: science.xnu.undecimus.resources
-Version: 0.9
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 484
-Depends: firmware (>= 11.0), com.bingner.spawn, science.xnu.injector
-Filename: debs/science.xnu.undecimus.resources_0.9_iphoneos-arm.deb
-Size: 65124
-MD5sum: 80ae8d3be361f86e09c0a68b52be3285
-SHA1: 17ac64fcc553d0e5f02f995594f697dcd5168a62
-SHA256: 31571ff47dabddacf34c0ab097ff3822aec9d356b4aa9e7ff092e3f2ea3ebba9
-Section: System
-Description: Resources used by Unc0ver
-Name: Unc0ver Jailbreak Resources
 
 Package: screen
 Version: 4.0.3-1
