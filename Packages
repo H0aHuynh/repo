@@ -3294,186 +3294,6 @@ Section: Networking
 Priority: optional
 Description: supposedly advanced console IRC client
 
-Package: jailbreak-resources
-Version: 1.0~b16
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 708
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b16_iphoneos-arm.deb
-Size: 107300
-MD5sum: 1918bc76c10b12debf5751635d159147
-SHA1: 3bbd3e7a3aa6c029eac302c028ac28a3d5307652
-SHA256: c1c7a101b5db0ae7b3bebc47b01899dd9f2a283cc4b04b7baac03c29e21e265b
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b18
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 772
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b18_iphoneos-arm.deb
-Size: 111964
-MD5sum: d5ba43a5c392442064cde74fcdaf3183
-SHA1: b17b3dd55d62a4d0959f8c4c3596f47db71feaf9
-SHA256: f9f16a35e15d02fd588f073e5aa9c47697572a0eb2cab0b4c384c6d48294d83d
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b19
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 772
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b19_iphoneos-arm.deb
-Size: 111976
-MD5sum: db3d5ad7b8c58ea7c0a8476de59b3242
-SHA1: e76e8b87dbc2d32947282bf8b804295abda86779
-SHA256: 48c7c9bba5f9f7e4fbf801b9feba07ee03a51eeb23b148a5e2e51d6e91ae6aa6
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b20
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 772
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b20_iphoneos-arm.deb
-Size: 112050
-MD5sum: 53915493dbb90485de32abe68f700847
-SHA1: 40bda53bd0748821adec5855d4e902139dafe3d7
-SHA256: c1b26256b7f9d9f796bfc515477510c52d661be3b124b1d5a52c8430d0496157
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b21
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 740
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b21_iphoneos-arm.deb
-Size: 105026
-MD5sum: b979e194397cd1e93e6f86a7cc9c1710
-SHA1: e9dc0a414257ffcfa2b672ec1b113b0ef4075af7
-SHA256: c9a8626385ad4e106cfc0f8a9a9fe8b10344858296f3a8e8388bfb85dd0e53f7
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b23
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 740
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b23_iphoneos-arm.deb
-Size: 105074
-MD5sum: e49923f3ec678ad7f974573ee441cf43
-SHA1: 30328524b96aab1271e789709afc617b5fbc9285
-SHA256: f9b6935c098123e4b987b9d5c8cf3be9e6e95467c4c0116cf142b34bcdf4ce29
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b5
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 272
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b5_iphoneos-arm.deb
-Size: 41740
-MD5sum: 240467107c82a0edf02c672caf10583e
-SHA1: 4ac13ab413fdead01226650321363baa5143fe7d
-SHA256: 6268df124cc9d8d313400cb34779c0c47a9280bf07992e08029f9cd237585a82
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Unc0ver Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b6
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 272
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b6_iphoneos-arm.deb
-Size: 41810
-MD5sum: 4012487594d7cacdffe97821030acad9
-SHA1: 89b1b6ccf34209c4b12640abb3f8327ac21a2bad
-SHA256: b43ca4efa90d200864aa659ec77bac3574b35499eaf3487afd3fbc86f8735af7
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Unc0ver Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b7
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 272
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b7_iphoneos-arm.deb
-Size: 42000
-MD5sum: f398f2d90cc994109e3db9d686bcea92
-SHA1: 8a302848ba1d82ff83f9ccbd263e87d41938cdf3
-SHA256: e0c020c012872bcc934037c81854d43c36eea9a8346555a457940818f383224b
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Unc0ver Jailbreak Resources
-
-Package: jailbreak-resources
-Version: 1.0~b9
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 288
-Pre-Depends: dpkg (>= 1.18.25-9)
-Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
-Conflicts: science.xnu.undecimus.resources
-Filename: debs/jailbreak-resources_1.0~b9_iphoneos-arm.deb
-Size: 43874
-MD5sum: 9ae322bd031b1acfac2b257e558fafe8
-SHA1: 73ae31f43f80daf5af0d32b59c90ae4407d689c2
-SHA256: 0e99e37e58ed6be26e665eadbebd8417d37fb444551523c7cd6fb17f44e7e662
-Section: System
-Description: Resources used by KPPLess Jailbreaks
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Jailbreak Resources
-
 Package: jbctl
 Version: 0.2.1-1
 Architecture: iphoneos-arm
@@ -9740,6 +9560,23 @@ Priority: standard
 Multi-Arch: foreign
 Description: the best compression algorithm
 
+Package: saigond
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: HoaHuynh
+Installed-Size: 740
+Pre-Depends: dpkg (>= 1.18.25-9)
+Depends: firmware (>= 12.0), firmware (<< 12.0) | signing-certificate, trustcache, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
+Filename: debs/saigond_1.0_iphoneos-arm.deb
+Size: 104408
+MD5sum: fe8782fa876edcda6c2ff6101c2262ce
+SHA1: 3ac493277a3999510676807d63a571ba900d33bb
+SHA256: 5c95cf3b66981a88ac8605cd4417791275a7687a63e1d688648e6a8c6b146612
+Section: System
+Description: SaiGonD for ios12
+Author: HoaHuynh
+Name: SaiGonD
+
 Package: sc-im
 Version: 0.7.0-1
 Architecture: iphoneos-arm
@@ -9756,38 +9593,6 @@ Section: Utilities
 Priority: optional
 Description: Spreadsheet program for the terminal, using ncurses
 Name: SC-IM
-
-Package: science.xnu.injector
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: Pwn20wnd
-Installed-Size: 88
-Filename: debs/science.xnu.injector_0.0.1_iphoneos-arm.deb
-Size: 12650
-MD5sum: ca1ebc3e8edde7b621c64e51dc5363dd
-SHA1: b659b876598bb8472e618723f97c71a9e47ffe26
-SHA256: 6be3f83817c7f2be93f66ed3109bf6ad559cca1b46be1c347722f99792823fd3
-Section: System
-Description: Inject files to trust cache
-Tag: role::hacker
-Author: Pwn20wnd
-Name: Injector
-
-Package: science.xnu.injector
-Version: 0.3
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 88
-Filename: debs/science.xnu.injector_0.3_iphoneos-arm.deb
-Size: 12662
-MD5sum: 1d270bb594d92c4bdd80d3cd387045f6
-SHA1: 474d852ca2dab234a9906365665d4b21b0891df1
-SHA256: 1a1359d57fb45cf401e0ac778a993b2bc966162c4f0333d4777c8957a6d1f3cd
-Section: System
-Description: Inject files to kernel trust cache
-Tag: role::hacker
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Injector
 
 Package: screen
 Version: 4.0.3-1
@@ -10617,6 +10422,21 @@ Description: displays an indented directory tree, in color
  Tree is a recursive directory listing command that produces a depth
  indented listing of files, which is colorized ala dircolors if the
  LS_COLORS environment variable is set and output is to tty.
+
+Package: trustcache
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: HoaHuynh
+Filename: debs/trustcache_1.0_iphoneos-arm.deb
+Size: 41600
+MD5sum: 671fcad527d8acdd46feff4dd0497c97
+SHA1: 3faa7e7fb3a6d6c6d58f1862832fc78b4c4ecbf5
+SHA256: b6d5e0c9a479cb6ab43a8aee83c62097d65d91feac91e58617316d76a124e3b4
+Section: System
+Description: Inject files to kernel trust cache
+Tag: role::hacker
+Author: HoaHuynh
+Name: TrustCache
 
 Package: tsschecker
 Version: 252-1
