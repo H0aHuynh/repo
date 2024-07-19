@@ -2437,59 +2437,21 @@ Multi-Arch: foreign
 Description: the standard text editor, 'nuff said
 
 Package: essential
-Version: 0-1
+Version: 2.0
 Architecture: iphoneos-arm
 Essential: yes
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Maintainer: HoaHuynh
 Installed-Size: 8
 Pre-Depends: bootstrap | dpkg (>= 1.13.25-5)
-Depends: cydia | com.ripdev.icy
-Filename: debs/essential_0-1_iphoneos-arm.deb
-Size: 680
-MD5sum: 1b994f0d4b3dd10eefe6681db1bfaee0
-SHA1: e8ed2d20e87f6debfebc9b2392695cef01642fb4
-SHA256: 470860978bcbb73df92773d9b1c518fb7527f6c88be687ee13a0e6bbf1cda2b7
+Depends: zebra
+Filename: debs/essential_2.0_iphoneos-arm.deb
+Size: 824
+MD5sum: ccba8b4dfd9c6b06934f37334a2e6949
+SHA1: 3b13d9f65860d0dd2a684bd3e2fce0a0ff1abb67
+SHA256: 8e80f5b35cd366fe84d22683fbbc26116b48d9bbdb26931107aa74fd50773f12
 Section: System
 Priority: required
 Multi-Arch: foreign
-Description: contains nothing, represents everything
-Depiction: http://cydia.saurik.com/info/essential/
-Name: Essential
-
-Package: essential
-Version: 0-2
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 8
-Pre-Depends: bootstrap | dpkg (>= 1.13.25-5)
-Depends: cydia | com.ripdev.icy, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
-Filename: debs/essential_0-2_iphoneos-arm.deb
-Size: 724
-MD5sum: 337a88326c63945485de150245a57a4e
-SHA1: 9276d38b69b539ed493a0b281861664b6ca723ae
-SHA256: 116e654351958396851a3ebe43a3e5a1b709bd8325765789aaa17c37b1d5a26b
-Section: System
-Priority: required
-Description: contains nothing, represents everything
-Depiction: http://cydia.saurik.com/info/essential/
-Name: Essential
-
-Package: essential
-Version: 0-3
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 8
-Pre-Depends: bootstrap | dpkg (>= 1.13.25-5)
-Depends: cydia | com.ripdev.icy
-Filename: debs/essential_0-3_iphoneos-arm.deb
-Size: 664
-MD5sum: 9dadfce877955e400d5f452afd3458fe
-SHA1: f738371b4e53e8f40db5eda253f01c5799ca8d02
-SHA256: 7c6ce69848a9f50d8fc851b645f6faa41d3e406a57caa6d00f3f46cc8bff228f
-Section: System
-Priority: required
 Description: contains nothing, represents everything
 Depiction: http://cydia.saurik.com/info/essential/
 Name: Essential
