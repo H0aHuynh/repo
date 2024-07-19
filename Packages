@@ -11341,6 +11341,26 @@ Homepage: http://tukaani.org/lzma/
 Description: slower, but better, compression algorithm
 Name: XZ Utils
 
+Package: zebra
+Version: 1.1.40-2+debug
+Architecture: iphoneos-arm
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 12920
+Depends: dpkg, uikittools, firmware (>= 12.0)
+Filename: debs/zebra_iphoneos-arm.deb
+Size: 6625110
+MD5sum: 0d474e8b539855c52c83da0a273c93ce
+SHA1: cce1c5cf5b7e8687d5715b427cf23a076d700630
+SHA256: be42e21cc0fbb18412daef59c225ebdc762e63f9fdeec8698695bdfce76cc58d
+Section: Packaging
+Description: A Useful Package Manager
+Tag: compatible::12.0-16.6
+Author: Zebra Team <team@getzbra.com>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Name: Zebra
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
 Package: zip
 Version: 2.32-1
 Architecture: iphoneos-arm
