@@ -243,6 +243,42 @@ Priority: standard
 Description: the advanced packaging tool from Debian
 Name: APT
 
+Package: apt
+Version: 1:0-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7
+Conflicts: cydia (<< 1.0.2843-1)
+Filename: debs/apt_1:0-1_iphoneos-arm.deb
+Size: 646
+MD5sum: 16f6d51e1e18d34cf733bdbed1ac6abd
+SHA1: d56844ac959b84935f6f3dafe566266c90092503
+SHA256: 23dd357a7e8676e47239cd0558b6a1a8860b546c116a23874e54ae9319e65fe1
+Section: Packaging
+Priority: required
+Description: any advanced packaging tool from Debian
+Name: APT 0.6 Transitional
+
+Package: apt
+Version: 1:0-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt1.4
+Conflicts: cydia (<< 1.0.2843-1)
+Filename: debs/apt_1:0-2_iphoneos-arm.deb
+Size: 644
+MD5sum: 086ad922ad0e9b3a030250c002d8e8cc
+SHA1: c56dc880fcbaa378ea9f32a694d3deafdc383c22
+SHA256: a2ca3e75228f2d7911266c461b33abd594b4c4f571427a98586e0f6d5f827a5b
+Section: Packaging
+Priority: required
+Description: any advanced packaging tool from Debian
+Name: APT Command Line
+
 Package: apt-key
 Version: 1.4.8-1
 Architecture: iphoneos-arm
@@ -1869,6 +1905,52 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cycript/
 Name: Cycript
 
+Package: cydia
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 7480
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: debs/cydia_2.0_iphoneos-arm.deb
+Size: 96492
+MD5sum: abebc996ab43db01bb3c33b56e59f61b
+SHA1: b7576c103ba53d287256b973a554e10b7e5a7e6e
+SHA256: 6b21126a1c09c20e6dd355a8946607fd64c8805863a9bc62dfdc612f5ab64a85
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+
+Package: cydia-lproj
+Version: 1.1.32~b1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 712
+Depends: cydia
+Conflicts: org.thebigboss.russiancydia
+Replaces: cydia, org.thebigboss.russiancydia
+Provides: org.thebigboss.russiancydia
+Filename: debs/cydia-lproj_1.1.32~b1_iphoneos-arm.deb
+Size: 78534
+MD5sum: 401dfd4809ef9abd6f002a3ccd4061ce
+SHA1: 9293dfad227f7514396e21603f45d9086370c375
+SHA256: e679e16ac309085eeeea42dfecc07feabdb1db30f9f80b84672e816e0b870100
+Section: Packaging
+Priority: required
+Description: languages and translations for Cydia
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia-lproj/
+Name: Cydia Translations
+
 Package: darwintools
 Version: 1-1
 Architecture: iphoneos-arm
@@ -2437,21 +2519,59 @@ Multi-Arch: foreign
 Description: the standard text editor, 'nuff said
 
 Package: essential
-Version: 2.0
+Version: 0-1
 Architecture: iphoneos-arm
 Essential: yes
-Maintainer: HoaHuynh
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Installed-Size: 8
 Pre-Depends: bootstrap | dpkg (>= 1.13.25-5)
-Depends: zebra
-Filename: debs/essential_2.0_iphoneos-arm.deb
-Size: 824
-MD5sum: ccba8b4dfd9c6b06934f37334a2e6949
-SHA1: 3b13d9f65860d0dd2a684bd3e2fce0a0ff1abb67
-SHA256: 8e80f5b35cd366fe84d22683fbbc26116b48d9bbdb26931107aa74fd50773f12
+Depends: cydia | com.ripdev.icy
+Filename: debs/essential_0-1_iphoneos-arm.deb
+Size: 680
+MD5sum: 1b994f0d4b3dd10eefe6681db1bfaee0
+SHA1: e8ed2d20e87f6debfebc9b2392695cef01642fb4
+SHA256: 470860978bcbb73df92773d9b1c518fb7527f6c88be687ee13a0e6bbf1cda2b7
 Section: System
 Priority: required
 Multi-Arch: foreign
+Description: contains nothing, represents everything
+Depiction: http://cydia.saurik.com/info/essential/
+Name: Essential
+
+Package: essential
+Version: 0-2
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: bootstrap | dpkg (>= 1.13.25-5)
+Depends: cydia | com.ripdev.icy, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
+Filename: debs/essential_0-2_iphoneos-arm.deb
+Size: 724
+MD5sum: 337a88326c63945485de150245a57a4e
+SHA1: 9276d38b69b539ed493a0b281861664b6ca723ae
+SHA256: 116e654351958396851a3ebe43a3e5a1b709bd8325765789aaa17c37b1d5a26b
+Section: System
+Priority: required
+Description: contains nothing, represents everything
+Depiction: http://cydia.saurik.com/info/essential/
+Name: Essential
+
+Package: essential
+Version: 0-3
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: bootstrap | dpkg (>= 1.13.25-5)
+Depends: cydia | com.ripdev.icy
+Filename: debs/essential_0-3_iphoneos-arm.deb
+Size: 664
+MD5sum: 9dadfce877955e400d5f452afd3458fe
+SHA1: f738371b4e53e8f40db5eda253f01c5799ca8d02
+SHA256: 7c6ce69848a9f50d8fc851b645f6faa41d3e406a57caa6d00f3f46cc8bff228f
+Section: System
+Priority: required
 Description: contains nothing, represents everything
 Depiction: http://cydia.saurik.com/info/essential/
 Name: Essential
@@ -3256,39 +3376,6 @@ Section: Networking
 Priority: optional
 Description: supposedly advanced console IRC client
 
-Package: jbctl
-Version: 0.2.1-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 120
-Pre-Depends: dpkg (>= 1.14.25-8)
-Conflicts: jailbreak-resources (<= 1.0~b26)
-Filename: debs/jbctl_0.2.1-1_iphoneos-arm.deb
-Size: 7508
-MD5sum: bf399d0a153bbb037194f156c0e2c05e
-SHA1: e2a2626456dc54e27a54fcc1fd467e6ef59863c2
-SHA256: 9eb8ae37a438347450c5147a1ab6fccee7a102a8a064b70a8bcbb1afb16890d9
-Section: System
-Priority: optional
-Description: Displays offsets and maybe other things
-
-Package: jbctl
-Version: 0.2.3-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 120
-Pre-Depends: dpkg (>= 1.14.25-8)
-Breaks: jailbreak-resources (<< 1.0~b27)
-Replaces: jailbreak-resources (<< 1.0~b27)
-Filename: debs/jbctl_0.2.3-1_iphoneos-arm.deb
-Size: 7742
-MD5sum: ab8c529d42c77395452160dcdab86a25
-SHA1: bf37712ba45c16d6182e9337ca9d292928cc9c01
-SHA256: 139ca78bdf5f681ab6887f9b7eb9c9a28861267aa8841aa0321c24afc3575dd8
-Section: System
-Priority: optional
-Description: Displays offsets and maybe other things
-
 Package: jq
 Version: 1.6-1
 Architecture: iphoneos-arm
@@ -3454,6 +3541,114 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Link Identity Editor
 
 Package: ldid
+Version: 2.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/ldid_2.0.0-1_iphoneos-arm.deb
+Size: 16772
+MD5sum: c579d8988fe64f42712dc8ec6b1da22e
+SHA1: 313cb7b52afa1714079cffd0db6d05e4118ab39a
+SHA256: 2d70bf19f448e05a97ec885a45cb0d18abe187af3e79381f86c9d26d95adcb18
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2.1.2+24497ae-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist (>= 2.0.0), libssl1.0, dpkg (>= 1.18.25-9)
+Filename: debs/ldid_2.1.2+24497ae-1_iphoneos-arm.deb
+Size: 51580
+MD5sum: 968a3c9f979e276c6e362e665eb63a4e
+SHA1: 17adf17e11cb5ec934375b03aa2633ec79a2888e
+SHA256: 07189d11c896a340b420983762115af6b2dab7512ddd278a190b24960efd60c5
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Tag: purpose::console, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/ldid_2:2.0.0-1_iphoneos-arm.deb
+Size: 16774
+MD5sum: 56070a952b13778225e921af8065d2c2
+SHA1: 59b14209e4e901bb40c78487f95516115b11db96
+SHA256: 7c6b36fcc1bdef6eed8bee90e8f66972d92aa30b892ee98522384b9096fe794d
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1208
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist, libssl1.0
+Filename: debs/ldid_2:2.0.1-1_iphoneos-arm.deb
+Size: 46082
+MD5sum: e2521690cbd7ca74e8e9f1b4653a83bd
+SHA1: 3b8983c7e05bf11f5413c3d24870f2165ef930a7
+SHA256: 8bf34f427fa69ec82476164837b3d05a6e26f824862df148c83811828a59fb05
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1208
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist, libssl1.0
+Filename: debs/ldid_2:2.0.1-2_iphoneos-arm.deb
+Size: 46094
+MD5sum: 4191f29542ce03e09d263fca82adab7b
+SHA1: 81275d8f052d09007fd70f67276cb915e4274aa0
+SHA256: fedc08d58eab780739b53066f1bcf7ddb7e43d59540151859388cffcc2559e96
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.1.1+elucubratus
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 928
+Depends: libplist (>= 2.0.0), libssl1.0
+Filename: debs/ldid_2:2.1.1+elucubratus_iphoneos-arm.deb
+Size: 51592
+MD5sum: 9a21c36756dc0d8b5a91f9dc501cd616
+SHA1: 9fc698c288b57ec0d7efc1b34ef5cd7e76db8292
+SHA256: bf1fe3897b29b01c9f6f87ae6c67e61429ede5844b68b9d8f484ddcb8aa6abe6
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Tag: purpose::console, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/ldid/
+Name: Link Identity Editor
+
+Package: ldid
 Version: 2:2.1.1+elucubratus1
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -3490,6 +3685,132 @@ Description: pseudo-codesign Mach-O files
 Tag: purpose::console, role::developer
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/ldid/
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.1.2+24497ae-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist (>= 2.0.0), libssl1.0, dpkg (>= 1.18.25-9)
+Filename: debs/ldid_2:2.1.2+24497ae-1_iphoneos-arm.deb
+Size: 51588
+MD5sum: e79a41591db1a04da1636e0498916103
+SHA1: b0ab2c0d288846eaffbfc2aa55632beaa9461c05
+SHA256: 771af217739525cffac51d6feb613c79d2e48d6ec72d1351a52cb34dbc1a8e1b
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.1.2+g5420cb5-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist (>= 2.0.0), libssl1.1.1, dpkg (>= 1.18.25-9)
+Filename: debs/ldid_2_2.1.2+g5420cb5-1_iphoneos-arm.deb
+Size: 51610
+MD5sum: 74302a4a9265923ba95f325dff9a702c
+SHA1: c8ac42dbcb07a81116428c1555a898fdddb6e7d6
+SHA256: 98ff2c568b6ee3522895a5b9ae2a627085029ab5428814f91a29aa02e0243824
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.1.2+g5420cb5-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist (>= 2.0.0), libssl1.1.1, dpkg (>= 1.18.25-9)
+Filename: debs/ldid_2_2.1.2+g5420cb5-2_iphoneos-arm.deb
+Size: 52148
+MD5sum: b83b5c7b01ed46d68b2654d8c77fabea
+SHA1: a01962dfd5a957c3586ee12781dc53164c384a44
+SHA256: 1a3f40113f385aa6968349d29f7aaa63322823ea54151662b1bd43d69e4280ab
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.1.2.7+g5420cb5q-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
+Filename: debs/ldid_2_2.1.2.7+g5420cb5q-1_iphoneos-arm.deb
+Size: 52172
+MD5sum: ac3987b37e5e1ba1e2bc46c8fb9c2cf4
+SHA1: ff5185177f94f65f862d2afd3e9f848f525fc130
+SHA256: 5c8869076183ed0f2efb7e2cc526b4ec0695d01529915adbdb3badccc0f53057
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.1.2.7+g5420cb5q-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8), libplist3
+Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
+Filename: debs/ldid_2_2.1.2.7+g5420cb5q-2_iphoneos-arm.deb
+Size: 52170
+MD5sum: a4e1d157a01283ea153ddebb467c16ed
+SHA1: 0087da4ad8326f2fd79d6552e657d44d44979239
+SHA256: d3702e8b0fb6151b28716ea5aa0c2a4c52f67eba98ba375474140415629a6695
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.1.4-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 456
+Pre-Depends: dpkg (>= 1.14.25-8), libplist3
+Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
+Filename: debs/ldid_2_2.1.4-1_iphoneos-arm.deb
+Size: 55008
+MD5sum: c35ac8c8a6ef1f766afccd1eca00dd7c
+SHA1: c9499a3e515e3d04733d72374f55f83476df5762
+SHA256: 7d9a8ca5f1d02f6fd399cc1418ff582e0f600ed508565f5db0dc28c853981040
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Version: 2:2.1.5-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 488
+Pre-Depends: dpkg (>= 1.14.25-8), libplist3
+Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
+Filename: debs/ldid_2_2.1.5-1_iphoneos-arm.deb
+Size: 60746
+MD5sum: 91cbee6f10add8ce3a8ca2f8c40f8f09
+SHA1: 24e15b2f900e715769b11adca9be63f7fdf25f7b
+SHA256: 75503e23fdd8bcecf70602cc7505c357b590d08222e5bafc0fe6925ca1a09cf1
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Link Identity Editor
 
 Package: less
@@ -5773,6 +6094,23 @@ Section: Networking
 Priority: standard
 Description: plist library
 
+Package: libplist
+Version: 2.2.1-3
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist-dev, libplist3, libplist++-dev, libplist++3, libplist-utils
+Conflicts: ldid (<<2:2.1.2.7+g5420cb5q)
+Filename: debs/libplist_2.2.1-3_iphoneos-arm.deb
+Size: 680
+MD5sum: 87d8f42faa9cd9985bbd2da89d1809b2
+SHA1: 4181e85dc314b5ea1f279cb167c8688bb248d030
+SHA256: 0f7374ab87900837600762f3556a70f05ca8800044f7989775d07c1bdf9b0a50
+Section: Networking
+Priority: standard
+Description: Library for handling Apple binary and XML property lists (metapackage)
+
 Package: libplist++-dev
 Version: 2.2.1-1
 Architecture: iphoneos-arm
@@ -7816,21 +8154,6 @@ Section: Text_Editors
 Priority: standard
 Description: completely free, modern clone of Pico
 
-Package: navisafemode
-Version: 1.3
-Architecture: iphoneos-arm
-Maintainer: Hoà Huỳnh
-Depends: cy+cpu.arm64
-Filename: debs/navisafemode_1.3_iphoneos-arm.deb
-Size: 58468
-MD5sum: e970ef4e85f3046e018d09a099092403
-SHA1: ada1f2610938cd51961fa49998d1a51e3fc18d55
-SHA256: a1d5cda07e2a70c7071c1a91ff5d83d76f4f184e84190c8adb236b2b33da090c
-Section: System
-Description: Navi Mode
-Author: Hoà Huỳnh
-Name: Navi Safe Mode
-
 Package: navistuti
 Version: 1.1
 Architecture: iphoneos-arm
@@ -7866,6 +8189,23 @@ Section: Networking
 Priority: standard
 Multi-Arch: foreign
 Description: the best ftp client known to man
+
+Package: ncurses
+Version: 6.1+20181013-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 7432
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses5-libs, coreutils, bash
+Filename: debs/ncurses_6.1+20181013-1_iphoneos-arm.deb
+Size: 365394
+MD5sum: d18cc4490dbfe33b8fd5211fbeacacc0
+SHA1: 2f57c086e2ee68af536ff3b88d4ac315a49d32c8
+SHA256: e55c55c9d61f3a3b0c1fd1a3df1add4083a6d3e891f87fb698c57d33d2365567
+Section: System
+Priority: required
+Description: feature-complete terminal library
+Name: New Curses
 
 Package: ncurses
 Version: 6.1-1
@@ -8949,6 +9289,23 @@ Priority: standard
 Description: OpenSSL tools
 Name: OpenSSL
 
+Package: org.coolstar.sileo
+Version: 2.5
+Architecture: iphoneos-arm
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/org.coolstar.sileo_2.5_iphoneos-arm.deb
+Size: 2891620
+MD5sum: dc81bf79416b4bc8812ca8041f2f8dc0
+SHA1: a0d675cdb363c1c30788ec6760e2ed4e1a7eb36e
+SHA256: afbbd9a6e598dfa3b8c8d199f0cc6286be9e34dd5a2cb4766339d4fe3159cd87
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: org.thebigboss.repo.icons
 Version: 1.0
 Architecture: all
@@ -9555,6 +9912,38 @@ Section: Utilities
 Priority: optional
 Description: Spreadsheet program for the terminal, using ncurses
 Name: SC-IM
+
+Package: science.xnu.injector
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Pwn20wnd
+Installed-Size: 88
+Filename: debs/science.xnu.injector_0.0.1_iphoneos-arm.deb
+Size: 12650
+MD5sum: ca1ebc3e8edde7b621c64e51dc5363dd
+SHA1: b659b876598bb8472e618723f97c71a9e47ffe26
+SHA256: 6be3f83817c7f2be93f66ed3109bf6ad559cca1b46be1c347722f99792823fd3
+Section: System
+Description: Inject files to trust cache
+Tag: role::hacker
+Author: Pwn20wnd
+Name: Injector
+
+Package: science.xnu.injector
+Version: 0.3
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 88
+Filename: debs/science.xnu.injector_0.3_iphoneos-arm.deb
+Size: 12662
+MD5sum: 1d270bb594d92c4bdd80d3cd387045f6
+SHA1: 474d852ca2dab234a9906365665d4b21b0891df1
+SHA256: 1a1359d57fb45cf401e0ac778a993b2bc966162c4f0333d4777c8957a6d1f3cd
+Section: System
+Description: Inject files to kernel trust cache
+Tag: role::hacker
+Author: Sam Bingner <maintainer@sbdhi.com>
+Name: Injector
 
 Package: screen
 Version: 4.0.3-1
@@ -11242,25 +11631,6 @@ SHA256: 718e7443330da9f8d1480c2f72b00e69292e8a0b386e2283ad43a746dcc15f2a
 Section: X_Window
 Priority: optional
 Description: X transport abstraction library
-
-Package: xyz.willy.zebra
-Version: 1.1.30
-Architecture: iphoneos-arm
-Maintainer: Zebra Team <team@getzbra.com>
-Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: debs/xyz.willy.zebra_1.1.30_iphoneos-arm.deb
-Size: 4959788
-MD5sum: f6cd2929286ddba8395f2a04ce94e9e5
-SHA1: 2348b3bfe887314702d034ba1a5e8e9b68eb2c2c
-SHA256: aa2cc948e0ed422eac3bf974a968a96f069ca49c9386a854fd2a8b02902a372c
-Section: Packaging
-Description: A Useful Package Manager
-Tag: compatible::9.0-14.8
-Author: Zebra Team <team@getzbra.com>
-Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
-Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
-Name: Zebra
-Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
 Package: xz
 Version: 5.2.4-1
