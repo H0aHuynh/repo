@@ -1880,10 +1880,10 @@ Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispa
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
 Filename: debs/cydia_2.0_iphoneos-arm.deb
-Size: 96492
-MD5sum: abebc996ab43db01bb3c33b56e59f61b
-SHA1: b7576c103ba53d287256b973a554e10b7e5a7e6e
-SHA256: 6b21126a1c09c20e6dd355a8946607fd64c8805863a9bc62dfdc612f5ab64a85
+Size: 91460
+MD5sum: dead27a54327fd990946e9cb034b5993
+SHA1: b28ea12ea087930161c5a4d0386808f7d5b720cf
+SHA256: e4da0026064c0612106ed46b285ec34478235edd5f0fe79e5b7b4bbf82969a98
 Section: Packaging
 Priority: required
 Description: graphical iPhone front-end for APT
