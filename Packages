@@ -2716,6 +2716,22 @@ Multi-Arch: foreign
 Description: represents Telesphoreo / iPhoneOS conflicts
 Name: iPhone Firmware (/sbin)
 
+Package: fixsubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Hoà Huỳnh
+Depends: mobilesubstrate
+Filename: debs/fixsubstrate.deb
+Size: 5992
+MD5sum: 51ac03fa871d5155f970b34b8e4bd388
+SHA1: 3e91c1a9eedd1debab7df5f63f125e753be656e4
+SHA256: cd325f31e190f0460804f83b90a626bb83e74e52c14a6bd8fdb716cf90c25e42
+Section: Addons
+Description: Fix various packages
+Tag: purpose::extension
+Author: Hoà Huỳnh
+Name: Fix Cydia Substrate
+
 Package: flac
 Version: 1.3.2-1
 Architecture: iphoneos-arm
@@ -8993,6 +9009,23 @@ Section: Security
 Priority: standard
 Description: OpenSSL tools
 Name: OpenSSL
+
+Package: org.coolstar.libhooker
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Hoà Huỳnh
+Depends: mobilesubstrate, fixsubstrate
+Replaces: org.coolstar.tweakinject, com.ex.libsubstitute
+Provides: org.coolstar.tweakinject, com.ex.libsubstitute
+Filename: debs/libhooker_patch.deb
+Size: 5828
+MD5sum: df141a2e8e990f2fd5bcef99a991759a
+SHA1: e3d1e72e1498e75fc6bf6e13702b50b0798413d6
+SHA256: f3689a2a5ce987d62bc767610ee64b59869ed50f107a7de810d3c5953e33627f
+Section: Addons
+Description: Add Substrate support to libhooker tweaks! And by that I mean, tweaks made by coolstar!
+Author: Hoà Huỳnh
+Name: Libhooker patch
 
 Package: org.coolstar.sileo
 Version: 2.5
